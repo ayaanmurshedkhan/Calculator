@@ -8,7 +8,34 @@
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/10473/10473465.png">
 </head>
 <body>
-    
+    <div class="mainContainer">
+        <div class="displaySection">
+            <input type="text" id="display">
+        </div>
+
+        <div class="buttonSection">
+            <button class="operator" onclick="clearDisplay()">AC</button>
+            <button class="operator" onclick="deleteChar()">C</button>
+            <button class="operator" onclick="addValue('%')">%</button>
+            <button class="operator" onclick="addValue('/')">/</button>
+            <button class="number" onclick="addValue(7)">7</button>
+            <button class="number" onclick="addValue(8)">8</button>
+            <button class="number" onclick="addValue(9)">9</button>
+            <button class="operator" onclick="addValue('x')">x</button>
+            <button class="number" onclick="addValue(4)">4</button>
+            <button class="number" onclick="addValue(5)">5</button>
+            <button class="number" onclick="addValue(6)">6</button>
+            <button class="operator" onclick="addValue('-')">-</button>
+            <button class="number" onclick="addValue(1)">1</button>
+            <button class="number" onclick="addValue(2)">2</button>
+            <button class="number" onclick="addValue(3)">3</button>
+            <button class="operator" onclick="addValue('+')">+</button>
+            <button class="number" onclick="addValue('00')">00</button>
+            <button class="number" onclick="addValue(0)">0</button>
+            <button class="operator" onclick="addValue('.')">.</button>
+            <button class="operator" onclick="calculate()">=</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
