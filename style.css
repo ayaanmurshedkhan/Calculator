@@ -59,15 +59,19 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    button {
-        border-radius: 50px;
-        border: none;
-        color: var(--fontColor);
-    }
-    .number {
-        background-color: var(--numberButtonColor);
-    }
-    .operator {
-        background-color: var(--operatorButtonColor);
-    }
+}
+button {
+    border-radius: 50px;
+    border: none;
+    color: var(--fontColor);
+}
+.number {
+    background-color: var(--numberButtonColor);
+}
+.operator {
+    background-color: var(--operatorButtonColor);
+}
+.error {
+    color: var(--error);
+    font-size: 30px;
 }
